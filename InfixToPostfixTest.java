@@ -57,7 +57,7 @@ public class InfixToPostfixTest {
                 System.out.printf("[FAIL] Test %2d\n", (i + 1));
                 System.out.println("  Infix Expression : " + tc.infix);
                 System.out.println("  Expected Postfix : " + tc.expectedPostfix);
-                System.out.println("  Actual Postfix   : " + actual);
+                System.out.println("  Your Postfix   : " + actual);
                 System.out.println("------------------------------------------");
             }
         }
